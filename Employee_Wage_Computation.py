@@ -1,3 +1,10 @@
+'''
+@Author:Shivam Mathur
+@Date:2021-06-28
+@Last Modified by:Shivam Mathur
+@Title: Employee Wage Computation
+'''
+
 import random
 
 print("Welcome to Employee Wage Computation Program")
