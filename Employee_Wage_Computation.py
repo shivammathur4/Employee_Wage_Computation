@@ -42,11 +42,11 @@ class EmployeeWageComputation:
     def calculate_employee_wage(self):
         '''
     Description:
-        this function calculate employee wage .
+        this function calculate employee daily wage .
     Parameters:
         No parameters.
     Return:
-        return total wage of employee.
+        return total wage of employee with daily wage.
         '''
 
         days = 1
