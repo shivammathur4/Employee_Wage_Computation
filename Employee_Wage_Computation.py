@@ -22,6 +22,14 @@ class EmployeeWageComputation:
         return random.randint(0, 2)
 
     def check_employee_attendance(self):
+        '''
+    Description:
+        this function checks attendance .
+    Parameters:
+        No parameters.
+    Return:
+        return attendence for full and part time.
+         '''
         attendance = self.generate_random_attendance()
         switcher = {
             0: 0,
@@ -31,6 +39,14 @@ class EmployeeWageComputation:
         return switcher.get(attendance)
 
     def calculate_employee_wage(self):
+        '''
+    Description:
+        this function calculate employee wage and hours .
+    Parameters:
+        No parameters.
+    Return:
+        return total wage of employee and hours worked.
+        '''
         days = 1
         employee_wage = 0
         total_wage = 0
